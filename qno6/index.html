@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical 6 - Browser, Window and Frame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Browser, Window and Frame Methods</h1>
+        <!-- Browser Methods -->
+        <h2>Browser Methods</h2>
+        <button onclick="showAlert()">Alert</button>
+        <button onclick="showConfirm()">Confirm</button>
+        <button onclick="showPrompt()">Prompt</button>
+        <p id="browserResult"></p>
+        <!-- Window Methods -->
+        <h2>Window Methods</h2>
+        <button onclick="openWindow()">Open Window</button>
+        <button onclick="closeWindow()">Close Window</button>
+        <p id="windowResult"></p>
+        <!-- Frame -->
+        <h2>Frame</h2>
+        <button onclick="changeFrame()">Change Frame</button>
+        <br><br>
+        <iframe id="myFrame"
+                src="https://example.com"
+                width="500"
+                height="200">
+        </iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
