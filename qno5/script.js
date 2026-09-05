@@ -1,61 +1,35 @@
-let fruits = ["Apple", "Mango", "Banana", "Orange"];
-let arrayOutput =
-    "Fruits: " + fruits.join(", ") + "<br>" +
-    "Array Length: " + fruits.length + "<br>" +
-    "First Fruit: " + fruits[0] + "<br>" +
-    "Last Fruit: " + fruits[fruits.length - 1];
-
+let tools = ["Nmap", "Burp Suite", "Wireshark", "Metasploit"];
 let today = new Date();
-let dateOutput =
-    "Today's Date: " + today.toDateString() + "<br>" +
-    "Current Year: " + today.getFullYear() + "<br>" +
-    "Current Month: " + (today.getMonth() + 1) + "<br>" +
-    "Current Day: " + today.getDate();
+let num = 404.404;
+let text = "Cybersecurity";
+document.getElementById("result").innerHTML =
+    "<h2>Cybersecurity Tools</h2>" +
+    "Tools: " + tools.join(", ") + "<br>" +
+    "Total: " + tools.length + "<br>" +
+    "First: " + tools[0] + "<br>" +
+    "Last: " + tools[tools.length - 1] + "<br><br>" +
 
-let mathOutput =
-    "Square Root of 25: " + Math.sqrt(25) + "<br>" +
-    "Power of 2³: " + Math.pow(2, 3) + "<br>" +
-    "Round 12.6: " + Math.round(12.6) + "<br>" +
-    "Maximum of 10 and 20: " + Math.max(10, 20);
-let num = 123.4567;
+    "<h2>Date Object</h2>" +
+    "Date: " + today.toDateString() + "<br>" +
+    "Year: " + today.getFullYear() + "<br>" +
+    "Month: " + (today.getMonth() + 1) + "<br>" +
+    "Day: " + today.getDate() + "<br><br>" +
 
-let numberOutput =
-    "Original Number: " + num + "<br>" +
-    "Fixed to 2 Decimal Places: " + num.toFixed(2) + "<br>" +
-    "Integer Part: " + Number.parseInt(num) + "<br>" +
-    "Is Finite: " + Number.isFinite(num);
+    "<h2>Math Object</h2>" +
+    "Square Root: " + Math.sqrt(25) + "<br>" +
+    "Power: " + Math.pow(2, 3) + "<br>" +
+    "Round: " + Math.round(12.6) + "<br>" +
+    "Maximum: " + Math.max(10, 20) + "<br><br>" +
 
-let text = "JavaScript Programming";
-let stringOutput =
-    "Original String: " + text + "<br>" +
-    "String Length: " + text.length + "<br>" +
+    "<h2>Number Object</h2>" +
+    "Number: " + num + "<br>" +
+    "Fixed: " + num.toFixed(2) + "<br>" +
+    "Integer: " + Number.parseInt(num) + "<br>" +
+    "Finite: " + Number.isFinite(num) + "<br><br>" +
+
+    "<h2>String Object</h2>" +
+    "Text: " + text + "<br>" +
+    "Length: " + text.length + "<br>" +
     "Uppercase: " + text.toUpperCase() + "<br>" +
     "Lowercase: " + text.toLowerCase() + "<br>" +
     "First Character: " + text.charAt(0);
-
-document.getElementById("result").innerHTML =
-
-    "<div class='section'>" +
-    "<h2>1. Array Object</h2>" +
-    "<p>" + arrayOutput + "</p>" +
-    "</div>" +
-
-    "<div class='section'>" +
-    "<h2>2. Date Object</h2>" +
-    "<p>" + dateOutput + "</p>" +
-    "</div>" +
-
-    "<div class='section'>" +
-    "<h2>3. Math Object</h2>" +
-    "<p>" + mathOutput + "</p>" +
-    "</div>" +
-
-    "<div class='section'>" +
-    "<h2>4. Number Object</h2>" +
-    "<p>" + numberOutput + "</p>" +
-    "</div>" +
-
-    "<div class='section'>" +
-    "<h2>5. String Object</h2>" +
-    "<p>" + stringOutput + "</p>" +
-    "</div>";
