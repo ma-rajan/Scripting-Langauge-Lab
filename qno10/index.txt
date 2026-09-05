@@ -1,0 +1,60 @@
+
+Title - Installation of XAMPP and Execution of Basic PHP Program
+
+Objective - To install XAMPP and execute a basic PHP program using the localhost server.
+
+Software/Tools Required
+* XAMPP
+* Web Browser
+* Text Editor / VS Code
+
+Theory
+XAMPP is a local server environment used to run PHP programs on a computer.
+ It provides **Apache**, which acts as the web server, and **PHP**, which 
+ processes PHP scripts.
+
+Installation Process
+
+1. Download and install XAMPP.
+2. Open the XAMPP Control Panel.
+3. Start the Apache server.
+4. Open the XAMPP installation directory.
+5. Go to the `htdocs` folder.
+For Windows:
+C:\xampp\htdocs
+6. Create a folder named `php_practical`.
+7. Inside the folder, create a file named `index.php`.
+
+Program
+php
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Practical</title>
+</head>
+<body>
+<?php
+$num = 10;
+if ($num % 2 == 0) {
+    echo "The number $num is Even.";
+} else {
+    echo "The number $num is Odd.";
+}
+?>
+</body>
+</html>
+
+Execution Steps
+1. Start Apache from the XAMPP Control Panel.
+2. Open a web browser.
+3. Enter:
+http://localhost/php_practical/
+4. Press Enter.
+5. The PHP program will execute and display the result.
+
+Output
+The number 10 is Even.
+
+Result
+The XAMPP server was successfully installed and the PHP program was successfully 
+executed using localhost.

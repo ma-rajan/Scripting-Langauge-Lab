@@ -1,4 +1,3 @@
-// to find the sum of even integers
 function sumEvenIntegers(numbers) {
     let sum = 0;
     for (let i = 0; i < numbers.length; i++) {

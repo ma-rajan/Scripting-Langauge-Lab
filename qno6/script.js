@@ -1,7 +1,6 @@
 function showAlert() {
     alert("Welcome to JavaScript!");
 }
-// confirm() returns true or false
 function showConfirm() {
     let answer = confirm("Do you want to continue?");
     if (answer) {
@@ -12,7 +11,6 @@ function showConfirm() {
             "You clicked Cancel.";
     }
 }
-// prompt() takes input from the user
 function showPrompt() {
     let name = prompt("Enter your name:");
     if (name !== null) {
@@ -20,9 +18,7 @@ function showPrompt() {
             "Hello, " + name;
     }
 }
-// Window Methods
 let myWindow;
-// Open a new window
 function openWindow() {
     myWindow = window.open(
         "",
@@ -38,7 +34,6 @@ function openWindow() {
     document.getElementById("windowResult").innerHTML =
         "Window opened successfully.";
 }
-// Close the opened window
 function closeWindow() {
 
     if (myWindow && !myWindow.closed) {
@@ -49,8 +44,6 @@ function closeWindow() {
             "Window closed successfully.";
     }
 }
-// Frame Method
-// Change iframe content
 function changeFrame() {
     document.getElementById("myFrame").src =
         "https://www.wikipedia.org/";
