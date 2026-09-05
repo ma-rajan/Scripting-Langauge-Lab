@@ -16,10 +16,10 @@ document.getElementById("result").innerHTML =
     "Day: " + today.getDate() + "<br><br>" +
 
     "<h2>Math Object</h2>" +
-    "Square Root: " + Math.sqrt(25) + "<br>" +
+    "Square Root of 404: " + Math.sqrt(404) + "<br>" +
     "Power: " + Math.pow(2, 3) + "<br>" +
     "Round: " + Math.round(12.6) + "<br>" +
-    "Maximum: " + Math.max(10, 20) + "<br><br>" +
+    "Maximum: " + Math.max(404, 200) + "<br><br>" +
 
     "<h2>Number Object</h2>" +
     "Number: " + num + "<br>" +
