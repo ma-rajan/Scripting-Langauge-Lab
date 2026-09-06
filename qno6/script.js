@@ -46,5 +46,5 @@ function closeWindow() {
 }
 function changeFrame() {
     document.getElementById("myFrame").src =
-        "https://www.wikipedia.org/";
+          "https://www.wikipedia.org/";
 }

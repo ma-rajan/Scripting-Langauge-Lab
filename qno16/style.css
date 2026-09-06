@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #ccc;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, a {
+    padding: 8px 15px;
+    background: #333;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, button:hover {
+    background: #555;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+.action a {
+    margin: 2px;
+}
