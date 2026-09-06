@@ -7,6 +7,7 @@ function validateForm() {
     let emailPattern =
         /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
     let phonePattern = /^[0-9]{10}$/;
+
     if (title === "") {
         result.innerHTML = "Please enter the title.";
         return false;
